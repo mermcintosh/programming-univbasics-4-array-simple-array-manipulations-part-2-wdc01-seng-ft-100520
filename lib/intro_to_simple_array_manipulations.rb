@@ -13,7 +13,7 @@ def using_uniq(array)
 end 
 using_uniq (['1', '1', '2', '3', '3'])
 
-# def using_flatten(array)
-#   array.flatten
-# end
-# using_flatten
+def using_flatten(array)
+  array.flatten
+end
+using_flatten
