@@ -4,9 +4,9 @@ end
 using_concat(['1', '2', '3'], ['4', '5', '6'])
   
 def using_insert(array, element)
-puts array.insert(element)
+puts array.insert(3)
 end
-  using_insert(['1', '2', '3'], (3, '4')
+  using_insert(['1', '2', '3'], ('4')
 
 # def using_uniq(array)
 #   array.uniq
