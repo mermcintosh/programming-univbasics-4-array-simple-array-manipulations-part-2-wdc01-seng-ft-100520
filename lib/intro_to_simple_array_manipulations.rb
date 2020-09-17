@@ -4,7 +4,7 @@ end
 using_concat(['1', '2', '3'], ['4', '5', '6'])
   
 def using_insert(array, element)
-  puts array.insert(-1, element)
+  puts array.insert(3, element)
 end
   using_insert(['dog', 'cat', 'rabbit'],'bird')
 
