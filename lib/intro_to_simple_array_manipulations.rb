@@ -6,7 +6,7 @@ using_concat(['1', '2', '3'], ['4', '5', '6'])
 def using_insert(array, element)
 puts array.insert(-1, '4')
 end
-  using_insert(%w['1', '2', '3'], ('4'))
+  using_insert(%w{'1', '2', '3'}, ('4'))
 
 # def using_uniq(array)
 #   array.uniq
