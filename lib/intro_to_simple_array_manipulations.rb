@@ -4,7 +4,8 @@ end
 using_concat(['1', '2', '3'], ['4', '5', '6'])
   
 def using_insert(array, element)
-puts array.insert(-1)
+  array = %w{'1', '2', '3'}
+puts array.insert(-1, '4')
 end
   using_insert(['1', '2', '3'], ('4')
 
