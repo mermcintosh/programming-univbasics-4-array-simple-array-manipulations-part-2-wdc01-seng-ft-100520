@@ -18,3 +18,6 @@ def using_flatten(array)
 end
 using_flatten(['1', '1', '3', ['2', '3']])
 
+def using_delete(array, string)
+  
+end
