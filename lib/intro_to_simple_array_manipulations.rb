@@ -19,5 +19,6 @@ end
 using_flatten(['1', '1', '3', ['2', '3']])
 
 def using_delete(array, string)
-  
+  array.delete_at(2)
 end
+using_delete(['dog', 'cat', 'rabbit'],'rabbit')
