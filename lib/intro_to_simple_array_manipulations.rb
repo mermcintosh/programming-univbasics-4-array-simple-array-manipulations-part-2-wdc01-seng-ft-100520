@@ -6,7 +6,7 @@ using_concat(['1', '2', '3'], ['4', '5', '6'])
 def using_insert(array)
   puts array.insert(-1, element)
 end
-  using_insert(array, element)
+  using_insert(['dog', 'cat', 'rabbit'],'bird')
 
 # def using_uniq(array)
 #   array.uniq
